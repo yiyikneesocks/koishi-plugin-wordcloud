@@ -1,0 +1,38 @@
+{
+  "name": "koishi-plugin-wordcloud",
+  "description": "聊天词云 for Koishi：基于 koishi-plugin-chatlog 的历史消息分词生成 SVG 词云图（puppeteer 渲染）",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "author": "yiyikneesocks",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "wordcloud",
+    "jieba"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.11",
+    "koishi-plugin-chatlog": "^0.1.0",
+    "koishi-plugin-puppeteer": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiyikneesocks/koishi-plugin-wordcloud.git"
+  },
+  "homepage": "https://github.com/yiyikneesocks/koishi-plugin-wordcloud#readme",
+  "bugs": {
+    "url": "https://github.com/yiyikneesocks/koishi-plugin-wordcloud/issues"
+  }
+}

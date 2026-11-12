@@ -1,5 +1,5 @@
 {
-  "name": "koishi-plugin-wordcloud",
+  "name": "@azulores/koishi-plugin-wordcloud",
   "description": "聊天词云 for Koishi：基于 koishi-plugin-chatlog 的历史消息分词生成 SVG 词云图（puppeteer 渲染）",
   "version": "0.1.0",
   "main": "lib/index.js",

@@ -1,6 +1,6 @@
 # koishi-plugin-wordcloud
 
-[![npm](https://img.shields.io/npm/v/koishi-plugin-wordcloud?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-wordcloud)
+[![npm](https://img.shields.io/npm/v/@azulores%2Fkoishi-plugin-wordcloud?style=flat-square)](https://www.npmjs.com/package/@azulores/koishi-plugin-wordcloud)
 
 聊天词云 for Koishi：基于 [koishi-plugin-chatlog](https://www.npmjs.com/package/koishi-plugin-chatlog)
 收集的历史消息分词（`jbmsg`），用 puppeteer 渲染 SVG 词云图。
